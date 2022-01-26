@@ -1,0 +1,14 @@
+.what-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5em;
+    a:hover{
+        color: azure;
+        transition: 0.2s ease-in-out;
+    }
+}
+
+.fas.fa-heart{
+    color: $secondary;
+}

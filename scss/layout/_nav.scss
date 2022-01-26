@@ -1,0 +1,112 @@
+nav {
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  position: fixed;
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+  top: 0px;
+  height: 9vh;
+  z-index: 10000;
+
+  & ul {
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: flex-start;
+    justify-content: space-between;
+    transition: 300ms ease-in-out;
+    
+
+    @media only screen and (min-width: 724px) {
+      padding-left: 20vw;
+      padding-right: 20vw;
+    }
+    @media only screen and (min-width: 1024px) {
+      padding-left: 30vw;
+      padding-right: 30vw;
+    }
+    @media only screen and (min-width: 1424px) {
+      padding-left: 35vw;
+      padding-right: 35vw;
+    }
+    @media only screen and (max-width: 500px) {
+      padding-left: 5vw;
+      padding-right: 5vw;
+      flex-direction: row;
+      justify-content: flex-end;
+
+    }
+
+    li {
+      display: flex;
+      flex-direction: row;
+      vertical-align: middle;
+      margin: auto;
+  transition: ease-in-out 300ms;
+  .link{
+    text-align: right;
+    margin: 0%;
+  }
+      
+      a:visited{
+        color: white;
+        transition: 0.5s ease-in-out;
+        :hover{
+          color: $secondary;
+        transition: 0.5s ease-in-out;
+
+        }
+      }
+      .source {
+        display: block;
+      }
+      .fab.fa-github {
+        padding-right: 5px;
+      }
+
+      &.title-nav {
+        
+        h3{
+        font-size: 20px;}
+        padding-top: 0px;
+        padding-right: 1em;
+        
+
+       
+        .fas.fa-hand-peace {
+          padding: 10px;
+          animation: out 0.5s forwards;
+        }
+        @media only screen and (max-width: 500px) {
+          display: flex;
+          flex-direction: row;
+    
+        }
+        &:hover {
+          .fas.fa-hand-peace {
+            animation: in 0.5s forwards;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+ul .responsive-nav {
+  
+
+ 
+  &:hover {
+    color: $secondary;
+  }
+}
+
+

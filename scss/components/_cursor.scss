@@ -1,0 +1,15 @@
+.cursor{
+	width: 3.2rem;
+	height: 3.2rem;
+	background-color: #05050500;
+	border-radius: 50%;
+  border-color: white;
+  border-style:solid ;
+  border-width: 2px;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	pointer-events: none;
+	z-index: 10;
+  @media screen and (max-width: 750px){
+    display: none;
+}}

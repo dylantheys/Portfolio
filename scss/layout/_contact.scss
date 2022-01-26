@@ -1,0 +1,48 @@
+.links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  border-radius: 10px;
+
+  li {
+    transition: 200ms ease-in-out;
+    flex-direction: row;
+    display: flex;
+
+    a {
+      display: flex;
+      flex-direction: row;
+      i {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin: 0.5em;
+      }
+    }
+  }
+}
+
+.links li:hover {
+  background-color: rgba($secondary, 0.2);
+  border-radius: 10px;
+}
+.contacts {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+justify-content: flex-end;
+  border-radius: 10px;
+  
+  i {
+    margin: 0.5em;
+  }
+
+  a {
+    color: $lowtext;
+    &:hover {
+      background-color: rgba($secondary, 0.2);
+      border-radius: 10px;
+    }
+  }
+}

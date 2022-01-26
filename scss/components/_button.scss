@@ -1,0 +1,14 @@
+.button{
+    background-color: $secondary;
+    width: 150px;
+    height: 3em;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.30s ease-in-out;
+    color: rgb(87, 75, 24);
+    
+   &:hover{
+       box-shadow: rgb(26, 26, 43) 0px 2px 10px;
+       background-color: lighten($color: #e1dec4, $amount: 1.9);
+   }
+}

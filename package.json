@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dylan theys",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@swup/scroll-plugin": "^1.1.0",
+    "swup": "^2.0.14",
+    "three": "^0.136.0",
+    "vanilla-tilt": "^1.7.2"
+  }
+}

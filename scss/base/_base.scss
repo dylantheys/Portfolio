@@ -1,0 +1,61 @@
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow-x: hidden;
+}
+body {
+  background-color: #242631;
+  margin: 0px;
+width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  color: $lowtext;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: $secondary;
+  transition: 500ms ease-in-out;
+}
+h3 {
+  font-family: "Quicksand", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  transition: ease-in-out 300ms;
+
+
+}
+p {
+  font-size: 16px;
+  font-weight: 200;
+  font-family: "Roboto Mono", Helvetica, sans-serif;
+  transition: ease-in-out 300ms;
+}
+main {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  @media only screen and (min-width: 724px) {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+  @media only screen and (min-width: 1024px) {
+    padding-left: 30vw;
+    padding-right: 30vw;
+  }
+  @media only screen and (min-width: 1424px) {
+    padding-left: 35vw;
+    padding-right: 35vw;
+  }
+}
+
+.headings{
+  border-bottom: rgba($secondary, 0.5) 4px solid;
+  width: fit-content;
+
+}

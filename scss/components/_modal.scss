@@ -1,0 +1,75 @@
+main {
+  .modal {
+    border-radius: 10px;
+    position: fixed;
+    top: 6em;
+    left: 0;
+    right: 0;
+    bottom: 0em;
+    margin-top: 5em;
+    max-width: 80%;
+    max-height: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    margin: auto;
+    transition: popup 300ms ease-in-out;
+
+    transition: 500ms ease-in-out;
+    
+    @media only screen and (min-width: 724px) {
+        max-width: 60%;
+      }
+      @media only screen and (min-width: 1024px) {
+        max-width: 50%;
+
+      }
+      @media only screen and (min-width: 1424px) {
+        max-width: 40%;
+
+      }
+    & img {
+      display: flex;
+      max-height: auto;
+      max-width: 100%;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+   
+  
+    transition: popup 300ms ease-in-out;
+    }
+  }
+  #close{
+    width: 4em;
+    height: 2.5em;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.336);
+    position: fixed;
+    z-index: 200000000;
+    box-shadow: rgba(0, 0, 0, 0.109) 0px 0px 20px;
+    transition: 200ms ease-in-out;
+    margin: 0.11em;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+
+
+    
+    z-index: 1000000; 
+    a h3{
+      color: white;
+      font-size: 18px;
+    }
+    &:hover{
+        background-color: $secondary;
+        color: white;
+        transform: scale(1.1);
+    }
+    
+}
+}
